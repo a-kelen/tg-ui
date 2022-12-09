@@ -1,0 +1,13 @@
+.channel-header {
+    display: flex;
+    align-items: center;
+}
+
+.channel-name {
+    margin-right: 10px !important;
+}
+
+.diagram {
+    height: 400px;
+    margin: 20px 0;
+}

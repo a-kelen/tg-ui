@@ -1,0 +1,30 @@
+.division {
+    margin-right: 70px;
+}
+
+.g-title {
+    margin-bottom: 18px !important;
+}
+
+.property {
+    margin: 10px 0;
+}
+
+.property-label {
+    margin-right: 7px !important;
+    color: rgb(31, 127, 162);
+}
+
+.compare-by-word {
+    margin: 40px 0;
+}
+
+.select {
+    margin: 10px 0 !important;
+}
+
+.diagram {
+    height: 400px;
+    margin: 20px 0;
+}
+

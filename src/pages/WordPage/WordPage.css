@@ -1,0 +1,30 @@
+.word-page {
+    margin: 20px;
+}
+
+.global-stats {
+    margin: 50px 0;
+    display: flex;
+}
+
+.division {
+    margin-right: 70px;
+}
+
+.g-title {
+    margin-bottom: 18px !important;
+}
+
+.property {
+    margin: 10px 0;
+}
+
+.property-label {
+    margin-right: 7px !important;
+    color: rgb(31, 127, 162);
+}
+
+.diagram {
+    height: 400px;
+    margin: 20px 0;
+}
