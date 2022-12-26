@@ -120,9 +120,11 @@ function Page({
                     onRowsPerPageChange={handleChangeRowsPerPage}
                 />
             </div>
+            <Typography variant="h5">Daily message count</Typography>
             <div className="diagram">
                 <WordChart data={messagesLine}></WordChart>
             </div>
+            <Typography variant="h5">Word time series by channel</Typography>
             <Autocomplete
                 disablePortal
                 id="word-select"

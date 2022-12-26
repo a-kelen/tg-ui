@@ -15,7 +15,7 @@ const initialState = {
     channels: [],
     channelsLoading: true,
 
-    channelTopWords: null,
+    channelTopWords: [],
     channelTopWordsLoading: false,
 
     channelWordLine: null,
@@ -37,12 +37,6 @@ export default function mapState(state = initialState, action) {
                 ...state, 
                 channels: action.payload,
                 channelsLoading: false
-            };
-        case GET_CHANNELS_TOP_WORDS:
-            return {
-                ...state, 
-                channelTopWords: action.payload,
-                channelTopWordsLoading: false
             };
         case GET_CHANNELS_TOP_WORDS:
             return {
@@ -78,13 +72,12 @@ export default function mapState(state = initialState, action) {
         case GET_CHANNELS_TOP_WORDS_PENDING:
             return {
                 ...state, 
-                channelTopWords: null,
                 channelTopWordsLoading: true
             };
         case GET_CHANNELS_TOP_WORDS_PENDING:
             return {
                 ...state, 
-                channelTopWords: null,
+                channelTopWords: [],
                 channelTopWordsLoading: true
             };
         case GET_CHANNEL_WORD_LINE_PENDING:
